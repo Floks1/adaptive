@@ -1,0 +1,84 @@
+.container {
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+.header {
+	min-height: 120px;
+	background: #ccc;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.h-logo .logo {
+	display: block;
+}
+.h-logo {
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle; 
+}
+.h-info {
+	font-size: 18px;
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle; 
+}
+.h-info .h-info-label {
+	color: #9e9faf;
+	margin-bottom: 4px;
+}
+.h-info .h-info-content {
+	color: #15285a;
+}
+.h-info .h-addr{
+	float: left;
+	margin-right: 105px;
+}
+.h-info .h-phone{
+	float: left;
+}
+.h-info .h-phone .info-label,
+.h-info .h-phone .info-content
+{
+	display: inline-block;
+	vertical-align: middle; 
+
+}
+.h-info .h-phone .info-label
+{
+	min-width: 52px; 
+}
+
+.fund-options-wrap
+{
+	min-height: 800px;
+	background:url(../img/map.png);
+	padding-top: auto;
+	padding-bottom: auto;
+}
+.main-heading
+{
+	width: 1200px;
+	height: 150px;
+}
+.fund-options-list
+{
+	min-width: 1200px;
+	min-height: 614px;
+}
+.fund-options-list-item
+{
+	padding: 20px 0px 0px 0px;
+	width: 378px;
+	height: 238px;
+	border-style: solid;
+	border-color: #9396bf;
+	border-width: 2px; 
+}
+.fo-list-item-pic
+{
+	padding: 0px 143px 147px 143px: 
+	width:91px; 
+	height:91px;
+	color: #002870;
+}
